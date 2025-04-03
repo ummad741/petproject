@@ -1,4 +1,7 @@
 # 1 exer a
+import string
+
+# start exersizes with learning 
 def middle_str():
     str1 = 'qwertyuiopasdfghjklzxcvbnmaaaaaa'
 
@@ -268,8 +271,7 @@ def exer_16():
     print(str1) 
 
     for char in string.punctuation:
-        str1 = str1.replace(char, replace_char)
-exer_16()
+        str1 = str1.replace(char, "#")
+        
+exer_16()    
 
-        
-        

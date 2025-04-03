@@ -36,7 +36,7 @@ def exer_3_and_4():
     num = 2
     for i in range(inp+1):
         print(num * i)
-# exer_3_and_4()
+exer_3_and_4()
 
 
 def exer_5():
@@ -250,4 +250,4 @@ def exer_16():
 
         print(f"Current Number is : {i}  and the cube is {i*i*i}")
 
-exer_16()
+# exer_16()
