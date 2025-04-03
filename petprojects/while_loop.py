@@ -1,4 +1,4 @@
-
+# start exersizes with learning 
 def exer_1():
 
     number = int(input('Enter any number between 100 and 500 '))

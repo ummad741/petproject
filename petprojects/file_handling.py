@@ -1,4 +1,4 @@
-
+ # start exersizes with learning 
 # with open('docs.txt', 'w') as w_method:
 #     pass
 
