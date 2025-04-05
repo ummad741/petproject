@@ -17,6 +17,15 @@ def exer_3(a, b):
     # addition and substraction
     return a + b, a - b
 
+def fun1(name, age):
+    print(name, age)
+
+fun1("Emma", age=23)
+fun1(age =23, name="Emma")
+
+def display(**kwargs):
+    for i in kwargs:
+        print(i)
 
 # res = exer_3(50, 10)
 # print(res)
@@ -78,7 +87,6 @@ def advansed_lambda():
 
     result = list(filter(lambda x: x % 2 == 0, num_list))
     print(result)
-
 
 
 advansed_lambda()
