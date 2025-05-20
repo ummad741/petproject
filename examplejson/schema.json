@@ -1,0 +1,40 @@
+{
+  "task1": {
+    "name": "Dilshod",
+    "age": 22,
+    "email": "dilshod@example.com"
+  },
+  "task2": {
+    "id": 101,
+    "tags": ["python", "backend", "api"]
+  },
+  "task3": {
+    "product": {
+      "title": "Laptop",
+      "price": 1500
+    }
+  },
+  "task4": {
+    "user": {
+      "username": "ali007",
+      "verified": true,
+      "roles": ["admin", "editor"]
+    }
+  },
+  "task5": {
+    "users": [
+      { "id": 1, "active": true },
+      { "id": 2, "active": false }
+    ]
+  },
+  "ref": {
+    "home_address": {
+      "street": "Main St.",
+      "city": "Tashkent"
+    },
+    "test_address": {
+      "street": "Main St fokina shteyn.",
+      "city": "Tashkent shteyn"
+    }
+  }
+}
