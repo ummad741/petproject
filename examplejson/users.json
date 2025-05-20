@@ -1,0 +1,24 @@
+{
+  "users": [
+    { "id": 1, "active": true },
+    { "id": 2, "active": false },
+    { "id": 3, "active": true }
+  ],
+
+  "task1": {
+    "team": {
+      "name": "Developers",
+      "members": [
+        { "name": "Ali", "role": "Backend" },
+        { "name": "Malika", "role": "Frontend" }
+      ],
+      "projects": ["API", "Website", "Admin Panel"]
+    }
+  },
+  "task5": {
+    "employee": {
+      "name": "Dilshod",
+      "skills": ["html", "css", "python", "sql"]
+    }
+  }
+}

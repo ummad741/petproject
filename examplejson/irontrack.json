@@ -1,0 +1,58 @@
+{
+  "task1": {
+    "valid_json": {
+      "user_name": "qalesan",
+      "user_password": "pass"
+    },
+    "error_json": {
+      "name": "errorqalesan",
+      "password": "2pass0"
+    }
+  },
+  "task2": {
+    "valid_json": {
+      "attr_name": true,
+      "attr_password": false
+    },
+    "error_json": {
+      "name": "errorqalesan",
+      "password": "2pass0"
+    }
+  },
+  "task3": {
+    "valid_json": {
+      "name": "test",
+      "age": 20
+    },
+    "error_json": {
+      "name": "errorqalesan",
+      "lastname": "test",
+      "age": 10
+    }
+  },
+  "task4": {
+    "valid_json": {
+      "payment_method": "card"
+    },
+    "error_json": {
+      "payment_method": "tolash"
+    }
+  },
+  "task5": {
+    "valid_json": {
+      "contact": "test"
+    },
+    "error_json": {
+      "contact": 20
+    }
+  },
+  "task6": {
+    "valid_json": {
+      "age": 20
+    },
+    "error_json": {
+      "age": 70
+    }
+  },
+  "task7": {}
+}
