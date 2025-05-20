@@ -95,7 +95,7 @@ def exer_5():
     for key in keys:
         result.update({key: sampleDict[key]})
     print(result)
-
+# exer_5()
 
 def exer_6():
     # Delete a list of keys from a dictionary
